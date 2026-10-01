@@ -47,3 +47,21 @@ OperBuku adalah platform web katalog dan pertukaran buku bekas, modul, serta dik
 **Integrasi Kontak WhatsApp**: Tombol penghubung langsung ke kontak pemilik buku dengan pesan templat otomatis berbasis judul modul.
 **Manajemen Status**: ModulPelabelan status ketersediaan barang secara dinamis: Tersedia, Dipesan, dan Selesai.
 **Dashboard Pengguna**: Halaman kelola untuk memantau, menyunting, atau mencabut daftar buku yang pernah diunggah oleh pengguna.
+
+Teknologi yang Digunakan (Tech Stack)
+
+Proyek **OperBuku** dibangun menggunakan perpaduan teknologi modern untuk memastikan performa yang cepat dan pengembangan yang terstruktur:
+
+**Frontend (Antarmuka Pengguna):**
+* **Library/Framework:** [React.js](https://react.dev/)
+* **Build Tool:** [Vite](https://vitejs.dev/) (Membuat proses *loading* dan *build* sangat cepat)
+* **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+* **Bahasa:** [TypeScript](https://www.typescriptlang.org/)
+
+**Backend & API (Logika Server):**
+* **Environment:** [Node.js](https://nodejs.org/)
+* **Framework:** [Express.js](https://expressjs.com/)
+* **ORM (Database Tool):** [Prisma](https://www.prisma.io/)
+
+**Database (Penyimpanan Data):**
+* **Sistem Database Utama:** MySQL
